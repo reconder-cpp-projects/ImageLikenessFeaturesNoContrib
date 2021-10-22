@@ -80,11 +80,10 @@ void main()
 {
     cv::utils::logging::setLogLevel(utils::logging::LogLevel::LOG_LEVEL_SILENT);
     int threshold;
-    /*std::cout << "Enter the threshold:" << std::endl;
-    std::cin >> threshold;*/
+    std::cout << "Enter the threshold:" << std::endl;
+    std::cin >> threshold;
     threshold = 0;
-    //auto inputs = parse_input();
-    std::vector<String> inputs = { "test_pic_1.png", "test_pic_2.png", "test_pic_3.png" };
+    auto inputs = parse_input();
     std::shared_ptr<ORB> detector = ORB::create(400);
     std::vector<Image> images;
     images.reserve(inputs.size());
