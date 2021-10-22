@@ -1,0 +1,4 @@
+﻿  ImageLikenessFeaturesNoContrib.cpp
+D:\CODE\C++ Projects\proj\ImageLikenessFeaturesNoContrib\ImageLikenessFeaturesNoContrib.cpp(23,1): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\CODE\C++ Projects\proj\ImageLikenessFeaturesNoContrib\ImageLikenessFeaturesNoContrib.cpp(80,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ImageLikenessFeaturesNoContrib.vcxproj -> D:\CODE\C++ Projects\proj\ImageLikenessFeaturesNoContrib\x64\Debug\ImageLikenessFeaturesNoContrib.exe
